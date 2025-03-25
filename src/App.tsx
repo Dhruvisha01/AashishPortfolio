@@ -324,13 +324,22 @@ function App() {
             <div>
               <p className="text-xl mb-8">Let's connect and discuss how I can help your organization leverage data for success.</p>
               <div className="flex gap-4">
-                <a href="#" className="p-2 hover:text-blue-400 transition-colors">
+                <a href="mailto:aashisrout@gmail.com"
+                  className="p-2 hover:text-blue-400 transition-colors"
+                  target="_blank"
+                  rel="noopener noreferrer">
                   <Mail size={24} />
                 </a>
-                <a href="#" className="p-2 hover:text-blue-400 transition-colors">
+                <a href="https://www.linkedin.com/in/aashisr/"
+                  className="p-2 hover:text-blue-400 transition-colors"
+                  target="_blank"
+                  rel="noopener noreferrer">
                   <Linkedin size={24} />
                 </a>
-                <a href="#" className="p-2 hover:text-blue-400 transition-colors">
+                <a href="https://github.com/Aashish-Rout"
+                  className="p-2 hover:text-blue-400 transition-colors"
+                  target="_blank"
+                  rel="noopener noreferrer">
                   <Github size={24} />
                 </a>
               </div>
